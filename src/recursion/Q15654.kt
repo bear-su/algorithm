@@ -2,7 +2,7 @@ package recursion
 
 import java.util.*
 
-val visited = Array(10_001) {false}
+private val visited = Array(10_001) {false}
 fun main() = with(Scanner(System.`in`)){
     val N = nextInt()
     val M = nextInt()

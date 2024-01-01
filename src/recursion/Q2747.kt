@@ -3,7 +3,7 @@ package recursion
 import java.util.*
 
 
-val mem = Array(46) {0}
+private val mem = Array(46) {0}
 fun main() = with(Scanner(System.`in`)) {
     val input = nextInt()
     println(fibo(input))
